@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WeatherAPI</title>
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1 class="flex">Get Your Local Weather!</h1>
-    <section class="flex">
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WeatherAPI</title>
+  <link rel="stylesheet" href="/screen.css">
+</head>
+
+<body>
+  <h1 class="flex">Get Your Local Weather!</h1>
+  <section class="flex">
     <input type="text" class="input" placeholder="Enter City Name...">
     <button class="searchButton">Search</button>
-    </section>
-    <section class="results flex">
+  </section>
+  <section class="flex input2">
+    <input type="text" class="input-zip" placeholder="Enter Zip Code...">
+    <button class="searchButton">Search</button>
+  </section>
+  <section class="results flex">
     <section class="searchResults flex">
     </section>
+    <section class="searchResults2 flex">
     </section>
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
+  </section>
+  <script src="/main.js" charset="utf-8"></script>
+</body>
+
 </html>
